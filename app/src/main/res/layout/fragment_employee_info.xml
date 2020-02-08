@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/employeeInfoAvatar"
+        android:layout_width="@dimen/employee_info_avatar_size"
+        android:layout_height="@dimen/employee_info_avatar_size"
+        android:layout_marginStart="@dimen/xxxlarge"
+        android:layout_marginEnd="@dimen/xxxlarge"
+        android:layout_marginTop="@dimen/xxxlarge"
+        android:layout_gravity="start"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/employee_info_padding_start_end"
+        android:paddingTop="@dimen/employee_info_padding_top_bottom"
+        android:paddingEnd="@dimen/employee_info_padding_start_end"
+        android:paddingBottom="@dimen/employee_info_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/employeeInfoLastNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_info_last_name_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/employeeInfoLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/employee_info_first_name_padding_start_end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/employee_info_padding_start_end"
+        android:paddingTop="@dimen/employee_info_padding_top_bottom"
+        android:paddingEnd="@dimen/employee_info_padding_start_end"
+        android:paddingBottom="@dimen/employee_info_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/employeeInfoFirstNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/employee_info_first_name_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/employeeInfoFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/employee_info_first_name_padding_start_end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/employee_info_padding_start_end"
+        android:paddingTop="@dimen/employee_info_age_padding_top_bottom"
+        android:paddingEnd="@dimen/employee_info_padding_start_end"
+        android:paddingBottom="@dimen/employee_info_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/birthdayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_info_birthday_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/employee_info_first_name_padding_start_end"
+            android:text="@string/employee_info_birthday"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/employee_info_padding_start_end"
+        android:paddingTop="@dimen/employee_info_age_padding_top_bottom"
+        android:paddingEnd="@dimen/employee_info_padding_start_end"
+        android:paddingBottom="@dimen/employee_info_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/ageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_info_age_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/employee_info_first_name_padding_start_end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/employee_info_padding_start_end"
+        android:paddingTop="@dimen/employee_info_age_padding_top_bottom"
+        android:paddingEnd="@dimen/employee_info_padding_start_end"
+        android:paddingBottom="@dimen/employee_info_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/specialtyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/specialty_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:id="@+id/specialtyLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/employee_info_specialty_linear_padding_start_end"
+            android:paddingBottom="@dimen/employee_info_age_padding_top_bottom"
+            tools:ignore="RtlCompat,RtlSymmetry">
+
+            <TextView
+                android:id="@+id/specialtyFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specialty_label"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/specialtySecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specialty_label"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:visibility="gone"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

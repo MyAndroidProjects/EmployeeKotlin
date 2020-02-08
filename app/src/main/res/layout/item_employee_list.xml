@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/item_employee_list_padding_start_end"
+        android:paddingTop="@dimen/item_employee_list_padding_top_bottom"
+        android:paddingEnd="@dimen/item_employee_list_padding_start_end">
+
+        <TextView
+            android:id="@+id/employeeLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/employeeFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/item_employee_list_first_name_padding_start_end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/item_employee_list_padding_start_end"
+        android:paddingTop="@dimen/item_employee_list_age_padding_top_bottom"
+        android:paddingEnd="@dimen/item_employee_list_padding_start_end"
+        android:paddingBottom="@dimen/item_employee_list_age_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/ageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_employee_list_age_label"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/item_employee_list_first_name_padding_start_end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            tools:ignore="RtlCompat,RtlSymmetry" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/separateLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separate_line_height"
+        android:background="@color/separated_line"
+        android:paddingStart="@dimen/item_specialty_list_padding_start_end"
+        android:paddingEnd="@dimen/item_specialty_list_padding_start_end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+</LinearLayout>

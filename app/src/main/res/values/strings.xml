@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EmployeeKotlin</string>
+
+    <string name="toolbar_title_specialty">Специальности</string>
+    <string name="toolbar_title_employees">Сотрудники</string>
+    <string name="toolbar_title_employee_info">Сотрудник</string>
+
+    <string name="item_employee_list_age_label">Возраст:</string>
+
+
+    <string name="employee_info_age_label">Возраст:</string>
+    <string name="employee_info_birthday">%1$s г.</string>
+    <string name="employee_info_birthday_label">Дата рождения:</string>
+    <string name="specialty_label">Специальность:</string>
+    <string name="specialties_label">Специальности:</string>
+    <string name="employee_info_first_name_label">Имя:</string>
+    <string name="employee_info_last_name_label">Фамилия:</string>
+
+
+</resources>
