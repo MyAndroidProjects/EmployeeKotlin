@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class DatabaseEmployee(
+data class DatabaseEmployee(
     var id: Int,
     val fName: String,
     val lName: String,
